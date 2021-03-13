@@ -40,12 +40,10 @@
   },
   "keywords": [
     "gatsby",
-    "gatsby-starter",
-    "gatsby-starter-spectral"
+    "gatsby-portfolio",
+    "strozilla-portfolio"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-spectral/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-spectral#readme"
+
+  "homepage": "https://strozilla.github.io/portfolio/"
 }
