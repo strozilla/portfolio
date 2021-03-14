@@ -94,9 +94,6 @@
 		appearance: none;
 	}
 
-	#projects h2 {
-		text-align: center;
-	}
 
 /* Basic */
 
@@ -1576,85 +1573,27 @@
 		}
 	}
 /* Zilla Pic */
-@keyframes zillanimation
-{ 
-	0% {
-		visibility: visible;
-		margin-left: 0;
-		
-	}
-	2% {
-		margin-left: 2%;
-		
-	}
-	5% {
-		margin-left: 5%;
-		
-	}
-	7% {
-		margin-left: 7%;
-		transform: rotate(5deg);
-		
-	}
-	10% {
-		margin-left: 10%;
-		transform: rotate(-10deg);
-	}
-	14% {
-		margin-left: 14%;
-		transform: rotate(10deg);
-	}
-	19% {
-		margin-left: 19%;
-		transform: rotate(-10deg);
-	}
-	25% {
-		margin-left: 25%;
-		transform: rotate(10deg);
-	}
-	32% {
-		margin-left: 32%;
-		transform: rotate(-10deg);
-	}
-	40% {
-		margin-left: 40%;
-		transform: rotate(10deg);
-	}
-	49% {
-		margin-left: 49%;
-		transform: rotate(-10deg);
-	}
-	59% {
-		margin-left: 59%;
-		transform: rotate(10deg);
-	}
-	70% {
-		margin-left: 70%;
-		transform: rotate(-10deg);
-	}
-	82% {
-		margin-left: 82%;
-		transform: rotate(10deg);
-	}
-	95% {
-		margin-left: 95%;
-		transform: rotate(-10deg);
-	}
-	100% {
-		margin-left: 100%;
-		transform: rotate(10deg);
-	}
-	
-	100% {
-		visibility: hidden;
-	}
-}
-.zilla {
+
+#zilla {
+    background: url(../img/zillasprite3.png) no-repeat;
+    width: 200px;
+    height: 200px;
+    margin-left: 45%;
 	z-index: 1;
-	width: 50px;
-	margin-left: 0;
-	visibility: hidden;
-	animation: zillanimation 5s linear;
+    background-size: 1400%, 100%;
+  background-position: left;
+  background-repeat:no-repeat;
+  animation: walk 5s steps(13) 1;  
+}
+
+@keyframes walk {
+  from {   
+    background-position: right; 
+  }
+  
+  to { 
+    background-position: left;
+  }
 }
 
 /* Banner */
@@ -1669,6 +1608,7 @@
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		
 
 		h2 {
 			@include vendor('transform', 'scale(1)');
@@ -1793,14 +1733,7 @@
 				}
 			}
 
-			.zilla {
-				@include vendor('transform', 'scale(0.95)');
-				opacity: 0;
-
-				&:before, &:after {
-					width: 0;
-				}
-			}
+			
 
 			.more {
 				@include vendor('transform', 'translateY(8.5em)');

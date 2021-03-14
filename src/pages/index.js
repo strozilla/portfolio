@@ -3,17 +3,15 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
-
-import zillapic from '../assets/img/strozilla.png'; 
+ 
 import pic1 from '../assets/img/vidzproj.png';
 import pic2 from '../assets/img/landingpage.png';
-import pic3 from '../assets/images/pic03.jpg';
+import pic3 from '../assets/img/screenshot.jpg';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
-          <img class="zilla" src={zillapic} />
-    
+          <div id="zilla"></div>
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
