@@ -34,7 +34,7 @@ const IndexPage = () => (
             About
           </h2>
           <p>
-            Web Developer | Web Designer | Fron-End | Back-End
+            Front-End | UX Design | Back-End
           </p>
         </header>
         <ul className="icons major">

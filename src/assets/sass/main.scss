@@ -6,6 +6,7 @@
 @import 'libs/html-grid';
 @import 'fontawesome-all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 
 /*
 	Spectral by HTML5 UP
@@ -175,7 +176,7 @@
 		font-weight: _font(weight-extrabold);
 		letter-spacing: _size(letter-spacing-alt);
 		line-height: 1em;
-		margin: 0 0 (_size(element-margin) * 0.5) 0;
+		margin: 0 0 (_size(element-margin) * 0.5) 1em;
 		text-transform: uppercase;
 
 		a {
@@ -1614,7 +1615,8 @@
 			@include vendor('transform', 'scale(1)');
 			@include vendor('transition', ('transform .5s ease', 'opacity .5s ease'));
 			display: inline-block;
-			font-size: 1.75em;
+			font-family: 'Nosifer' , cursive;
+			font-size: 1.8em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
@@ -1799,7 +1801,7 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../img/chicity.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../img/chicagogreen.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1924,7 +1926,7 @@
 
 	body.landing, .main-body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../img/chicity.jpg")'));
+			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../img/chicagogreen.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1945,7 +1947,7 @@
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../img/chicity.jpg")'));
+				@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../img/chicagogreen.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;

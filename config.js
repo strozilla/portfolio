@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/portfolio/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Strozilla',
-  subHeading: 'Web Developer | Creator ',
+  subHeading: 'Web Developer | Creator | UX Designer',
   // social
   socialLinks: [
     {
