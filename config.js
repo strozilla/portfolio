@@ -8,7 +8,7 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/portfolio/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Strozilla',
+  heading: 'Michael Castro',
   subHeading: 'Web Developer | Creator | UX Designer',
   // social
   socialLinks: [

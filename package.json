@@ -1,5 +1,6 @@
 {
   "name": "strozilla-portfolio",
+  "homepage": "https://strozilla.github.io/portfolio/",
   "version": "0.0.1",
   "description": "porject portfolio - template based on Spectral by HTML5 UP",
   "repository": {
@@ -26,6 +27,7 @@
   },
   "scripts": {
     "develop": "gatsby develop",
+    "predeploy": "npm run build",
     "build": "npm run clean && gatsby build",
     "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
     "serve": "gatsby serve",
