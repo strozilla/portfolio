@@ -39,7 +39,7 @@ const IndexPage = () => (
           <p>
                 Determined. Passionate. Always Learning.
                 <br />
-                <em>If none of these words resonate with you, no need to continue reading.</em>
+                <em>If these words resonate with you, continue reading.</em>
           </p>
           <p>
                 Hello, my name is Mike and I am new to the web development world. Fortunately many of the skills I aquired from my previous career have helped make this transition much easier.

@@ -1137,7 +1137,7 @@
 				color: _palette($p, fg-bold);
 			}
 
-			h2, h3, h4, h5, h6 {
+			h2, h3, h4, h5, h6, p {
 				color: _palette($p, fg-bold);
 			}
 
@@ -1157,7 +1157,7 @@
 
 			header {
 				p {
-					color: _palette($p, fg-light);
+					color: _palette($p, fg-bold);
 				}
 
 				&.major {
