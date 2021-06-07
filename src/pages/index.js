@@ -38,7 +38,7 @@ const IndexPage = () => (
           </p>
           <p>
                 Determined. Passionate. Always Learning.
-                <br />
+                <br />  
                 <em>If these words resonate with you, continue reading.</em>
           </p>
           <p>
