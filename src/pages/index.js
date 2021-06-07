@@ -86,7 +86,7 @@ const IndexPage = () => (
             Definitely NOT Youtube
           </h2>
           <p>
-            <a href="https://strozilla.github.io/searchvidz/" target="_blank">
+            <a href="https://strozilla.github.io/searchvidz/" target="_blank" rel="noreferrer">
               Website that utilizes Youtube API.
             </a>
           </p>
@@ -101,7 +101,7 @@ const IndexPage = () => (
             App Landing Pages
           </h2>
           <p>
-            <a href="https://strozilla.github.io/landing-page/" target="_blank">
+            <a href="https://strozilla.github.io/landing-page/" target="_blank" rel="noreferrer">
             Simple. Sleek. Modern. Get More Downloads By Wowing Customers With A Captivating Landing Page
             </a>
           </p>
@@ -113,7 +113,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            <a></a>
+            <a href="">Gold + Sage Jewelry Website</a>
           </h2>
           <p>
             Gold + Sage eCommerce website coming soon!
