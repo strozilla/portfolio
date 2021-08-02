@@ -6,6 +6,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import '../assets/sass/main.scss';
 import Footer from './Footer';
 import SideBar from './Sidebar';
+import About from '../pages/About';
 
 class Layout extends Component {
   constructor(props) {
