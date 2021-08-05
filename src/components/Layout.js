@@ -7,6 +7,8 @@ import '../assets/sass/main.scss';
 import Footer from './Footer';
 import SideBar from './Sidebar';
 import About from '../pages/About';
+import Projects from '../pages//Projects'
+
 
 class Layout extends Component {
   constructor(props) {
@@ -63,6 +65,7 @@ class Layout extends Component {
               <div id="page-wrapper">
                 <SideBar fullMenu={fullMenu} />
                 {children}
+                
                 <Footer />
               </div>
             </div>

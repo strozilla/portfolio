@@ -1,7 +1,9 @@
 import React from 'react';
+import Layout from '../components/Layout';
 
-export default function About() {
-  return (
+
+const IndexPage = () => (
+  <Layout fullMenu>
     <section id="about" className="wrapper style1 special">
     <div className="inner">
       <header className="about-me">
@@ -46,5 +48,7 @@ export default function About() {
       </ul>
     </div>
   </section>
-  )
-}
+  </Layout>
+  );
+
+  export default IndexPage;
