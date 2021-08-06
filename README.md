@@ -2,13 +2,13 @@
 
 Gatsby.js V2 Portfolio
 
-![Screenshot](./src/assets/img/screenshotdesktop.png)
+[Screenshot](./src/assets/img/screenshotdesktop.png)
 
 Check online preview [here](https://strozilla.github.io/portfolio/)
 
 ## Screenshot
 
-![Screenshot](./src/assets/img/screenshotphone.png)
+[Screenshot](./src/assets/img/screenshotphone.png)
 
 ### License
 
