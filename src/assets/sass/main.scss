@@ -26,6 +26,14 @@
 
 // Reset.
 // Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
+	#mcLogo {
+		@include breakpoint('<=small') {
+			margin-left: -20px;
+			height: 50px;
+			width: 105px;
+		}
+	}
+
 
 	html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1541,6 +1549,10 @@
 								height: 3.75em;
 								vertical-align: top;
 								width: 2em;
+							}
+
+							span {
+								color: _palette(fg-bold);
 							}
 
 							@include breakpoint('<=small') {

@@ -8,7 +8,7 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/portfolio/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Michael Castro',
+  heading: 'STROZILLA',
   subHeading: 'Web Developer | Creator | UX Designer',
   // social
   socialLinks: [
@@ -22,7 +22,7 @@ module.exports = {
       style: 'brands',
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/strozilla',
+      url: 'https://twitter.com/strozillaa',
     },
     {
       style: 'solid',
