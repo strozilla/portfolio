@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 
 import pic1 from '../assets/img/42comingsoon.png';
 import pic2 from '../assets/img/landingpage.png';
-import pic3 from '../assets/img/GSLogo.png';
+import pic3 from '../assets/img/goldandsagecs.png';
 
 const IndexPage = () => (
 	<Layout fullMenu>
