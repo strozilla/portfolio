@@ -3,6 +3,9 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
+import About from '../components/About';
+import Projects from '../components/Projects';
+import Skills from '../components/Skills';
 
 import Scroll from '../components/Scroll';
 
@@ -17,7 +20,7 @@ const IndexPage = () => (
 				<ul className="actions special">
 					<li>
 						<Scroll type="id" element="projects">
-							<Link to="/Projects/" className="button primary">
+							<Link to="#projects" className="button primary">
 								Explore
 							</Link>
 						</Scroll>
@@ -25,6 +28,9 @@ const IndexPage = () => (
 				</ul>
 			</div>
 		</section>
+		<About />
+		<Projects />
+		<Skills />
 	</Layout>
 );
 

@@ -1,12 +1,11 @@
 import React from 'react';
-import Layout from '../components/Layout';
 
 import pic1 from '../assets/img/42comingsoon.png';
 import pic2 from '../assets/img/landingpage.png';
 import pic3 from '../assets/img/goldandsagecs.png';
 
-const IndexPage = () => (
-	<Layout fullMenu>
+export default function Projects() {
+	return (
 		<section id="projects" className="wrapper alt style2">
 			<header style={{ textAlign: 'center' }}>
 				<h2>My Projects</h2>
@@ -23,7 +22,6 @@ const IndexPage = () => (
 					</p>
 				</div>
 			</section>
-
 			<section className="spotlight">
 				<div className="image">
 					<img src={pic3} alt="Gold+Sage Logo" />
@@ -54,7 +52,5 @@ const IndexPage = () => (
 				</div>
 			</section>
 		</section>
-	</Layout>
-);
-
-export default IndexPage;
+	);
+}

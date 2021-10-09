@@ -6,8 +6,6 @@ import { StaticQuery, graphql, Link } from 'gatsby';
 import '../assets/sass/main.scss';
 import Footer from './Footer';
 import SideBar from './Sidebar';
-import About from '../pages/About';
-import Projects from '../pages//Projects';
 
 class Layout extends Component {
 	constructor(props) {
@@ -18,12 +16,20 @@ class Layout extends Component {
 	}
 
 	componentDidMount() {
-		this.timeoutId = setTimeout(() => {
-			this.setState({ isPreloaded: false });
-		}, 100);
+		if (window.sessionStorage.getItem('firstLoadDone') === null) {
+			this.timeoutId = setTimeout(() => {
+				this.setState({ isPreloaded: false });
+			}, 100);
+
+			window.sessionStorage.setItem('firstLoadDone', 1);
+		} else {
+			this.setState({
+				isPreloaded: false,
+			});
+		}
 	}
 
-	componentWillUnmount() {
+	componentDidUpdate() {
 		if (this.timeoutId) {
 			clearTimeout(this.timeoutId);
 		}
