@@ -12,18 +12,12 @@ export default function About() {
 					</p>
 
 					<p>
-						Welcome, my name is Mike and I am a UX Designer/Web Developer. What
-						started as a childhood fascination, has come around full-cicle into
+						Welcome, my name is Mike and I am a Web Developer/Designer. What
+						started as a childhood fascination, has come around full-circle into
 						a passion and desire to help improve the current state of the tech
-						industry. I never really considered a career in the tech industry
-						but after speaking with friends and family, who are in the industry,
-						I've come to realize the importance of people like me. It seems as
-						though the industry is saturated with people who are looking to just
-						"make a good living," and are not actually curious about the work
-						they doing.
+						industry.
 						<br />
-						I'm here because I am curious and excited about the future of
-						technology.
+						I love the challenge of designing and developing a project that is great for the present but adaptable for the future.
 					</p>
 				</header>
 				<ul className="icons major">
