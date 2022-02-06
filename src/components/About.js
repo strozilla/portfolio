@@ -13,11 +13,10 @@ export default function About() {
 
 					<p>
 						Welcome, my name is Mike and I am a Web Developer/Designer. What
-						started as a childhood fascination, has come around full-circle into
-						a passion and desire to help improve the current state of the tech
-						industry.
-						<br />
-						I love the challenge of designing and developing a project that is great for the present but adaptable for the future.
+						started as a childhood hobby, has come around full-circle into a
+						hunger and desire to make an impact in the dev community.
+						<br />I love the challenge of designing and developing a project
+						that is great for the present but adaptable for the future.
 					</p>
 				</header>
 				<ul className="icons major">
