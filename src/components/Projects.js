@@ -4,6 +4,8 @@ import pic1 from '../assets/img/42comingsoon.png';
 import pic2 from '../assets/img/landingpage.png';
 import pic3 from '../assets/img/goldandsagecs.png';
 import pic4 from '../assets/img/lkcsfinancial.png';
+import pic5 from '../assets/img/dittoscreenshot.png';
+import pic6 from '../assets/img/logo.png';
 
 export default function Projects() {
 	return (
@@ -22,8 +24,9 @@ export default function Projects() {
 					>
 						<h2>42 Bar and Table</h2>
 						<p>
-							Assist with redesign and Integration of The Clinton Foundation
-							website. With a focus on the 42 Bar Table page/modules.
+							Assisted with the redesign and integration of The Clinton
+							Foundation website. With a focus on the 42 Bar & Table page/main
+							navbar.
 						</p>
 					</a>
 				</div>
@@ -42,6 +45,16 @@ export default function Projects() {
 						</a>
 					</h2>
 					<p>Mock Bank Homepage</p>
+				</div>
+			</section>
+			<section className="spotlight">
+				<div className="image">
+					<img src={pic5} alt="ditto website" />
+					<img src={pic6} alt="ditto logo" />
+				</div>
+				<div className="content">
+					<h2>ditto App</h2>
+					<p>Logo and social media app I designed</p>
 				</div>
 			</section>
 			<section className="spotlight">
