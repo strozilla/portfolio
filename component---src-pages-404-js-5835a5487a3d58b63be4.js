@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkstrozilla_portfolio=self.webpackChunkstrozilla_portfolio||[]).push([[883],{429:function(e,l,t){t.r(l);var a=t(7294),n=t(5610);l.default=()=>a.createElement(n.Z,{fullMenu:!0},a.createElement("article",{id:"main"},a.createElement("header",null,a.createElement("h2",null,"Not Found"),a.createElement("p",null,"Not a Valid URL"))))}}]);
-//# sourceMappingURL=component---src-pages-404-js-5835a5487a3d58b63be4.js.map
