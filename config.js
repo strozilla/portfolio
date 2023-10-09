@@ -1,15 +1,15 @@
 module.exports = {
-  siteTitle: 'Strozilla Portfolio', // <title>
+  siteTitle: 'Mike Castro Portfolio',
   manifestName: 'Portfolio',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestShortName: 'Portfolio', 
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/portfolio/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'STROZILLA',
-  subHeading: 'Web Developer | Creator | UX Designer',
+  pathPrefix: `/portfolio/`, 
+  heading: 'Mike Castro',
+  subHeading: 'Web Developer | SEO Manager | Content Strategist',
   // social
   socialLinks: [
     {
@@ -20,9 +20,9 @@ module.exports = {
     },
     {
       style: 'brands',
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/strozillaa',
+      icon: 'fa-instagram',
+      name: 'Instagram',
+      url: 'https://instagram.com/strozillaa',
     },
     {
       style: 'solid',

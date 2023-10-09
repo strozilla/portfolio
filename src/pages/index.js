@@ -13,20 +13,20 @@ import config from '../../config';
 const IndexPage = () => (
 	<Layout>
 		<section id="banner">
-			<div id="zilla"></div>
-			<div className="inner">
+			<div className="inner" style={{ margin: '5rem 0' }}>
 				<h2>{config.heading}</h2>
 				<p>{config.subHeading}</p>
 				<ul className="actions special">
 					<li>
 						<Scroll type="id" element="projects">
 							<Link to="#projects" className="button primary">
-								Explore
+								My Projects
 							</Link>
 						</Scroll>
 					</li>
 				</ul>
 			</div>
+		<div style={{ borderBottom: 'solid #fff', margin: '0rem 10%' }}></div>
 		</section>
 		<About />
 		<Projects />
